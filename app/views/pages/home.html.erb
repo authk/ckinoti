@@ -1,0 +1,80 @@
+<%= image_tag("moreno.jpg",alt: "2",id: 'background' )%>
+<div id="maincontent">
+	
+<div class="home_container">
+	<ul class="ch-grid">
+		<li>
+			<div class="ch-item ch-img-1">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-1"></div>
+						<div class="ch-info-back">
+							<h3>contacts</h3>
+							<p><%= link_to "contacts" , contacts_path %></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+		
+		<li>
+			<div class="ch-item ch-img-2">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-2"></div>
+						<div class="ch-info-back">
+							<h3>gallery</h3>
+							<p><%= link_to "gallery" , gallery_path %></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+		
+		<li>
+			<div class="ch-item ch-img-3">
+				<div class="ch-info-wrap">
+					<div class="ch-info">
+						<div class="ch-info-front ch-img-3"></div>
+						<div class="ch-info-back">
+							<h3>manifesto</h3>
+							<p><%= link_to "manifesto" , manifesto_path %></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+	</div>	
+	
+	</div>
+	
+<script type="text/javascript">
+$(window).load(function() {
+	$("#background").fullBg();
+});
+</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<%= render 'pages/footer'%>

@@ -1,0 +1,6 @@
+
+learning how to use the rails assets
+
+prototype design for final app design to handle artworks---illustrations,paintings and drawings
+
+

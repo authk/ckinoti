@@ -1,0 +1,31 @@
+body{
+	overflow:hidden;
+	background-color:black;
+}
+
+.wrapper{
+	display:inline;
+	position: absolute;
+    width:100%;
+    height:100%;
+    overflow-y:hidden;
+	top:50px;
+    left:50px;
+    
+    
+}
+.thumbs{
+    height:126px;
+    margin: 0;
+}
+.thumbs img{
+    float:left;
+    
+    margin:3px 3px 0px 0px;
+    cursor:pointer;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 5px #000;
+	/*opacity:0.8;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);*/
+}
